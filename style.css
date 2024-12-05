@@ -1,0 +1,58 @@
+#title{
+    display: inline;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #995b3c;
+}
+
+.navbar{
+    text-align: center;
+    padding: 8px;
+    background-color: #ffdca6;
+    border-radius: 15px;
+    width: 70%;
+    margin-left: 14%;
+   
+}
+
+.navbar-links{
+    margin-top: -5%;
+}
+a{
+    padding: 80px;
+}
+
+h1{
+    margin-left: 10%;
+}
+
+
+#banner{
+    margin-left: 23%;
+}
+
+body{
+    color:#995b3c;
+}
+
+.trio_1, .trio_2, .trio_3, .trio_4{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    border-radius: 7px;
+    border: none;
+    background-color: #995b3c;
+    color: #fff6e7;
+}
+
+.zoom{
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* Aumenta 10% */
+}
